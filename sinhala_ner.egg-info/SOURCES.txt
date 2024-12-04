@@ -1,0 +1,8 @@
+setup.py
+sinhala_ner/__init__.py
+sinhala_ner/ner_detector.py
+sinhala_ner.egg-info/PKG-INFO
+sinhala_ner.egg-info/SOURCES.txt
+sinhala_ner.egg-info/dependency_links.txt
+sinhala_ner.egg-info/requires.txt
+sinhala_ner.egg-info/top_level.txt

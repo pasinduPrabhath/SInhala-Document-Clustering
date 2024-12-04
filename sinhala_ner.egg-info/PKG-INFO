@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: sinhala_ner
+Version: 0.1.0
+Requires-Dist: flask
+Requires-Dist: spacy
+Requires-Dist: requests
