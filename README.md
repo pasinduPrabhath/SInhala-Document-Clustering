@@ -1,6 +1,7 @@
 # Sinhala Named Entity Recognition (NER) and Document Clustering
 
-This repository contains a Flask-based web application for Sinhala Named Entity Recognition (NER) and document clustering. The application uses a pre-trained SpaCy model for NER and a Word2Vec model for document clustering.
+This repository contains a Flask-based web application for Sinhala Named Entity Recognition (NER) and document clustering. The application uses a hybrid NER process that combines a pre-trained SpaCy model and the Perplexity API (LLaMa 3.1 model) for enhanced entity detection. For document clustering, it employs a Word2Vec model and fuzzy clustering (Fuzzy C-Means) with the elbow method to determine the optimal number of clusters. The clusters are then named using the LLaMa 3.1 model from Perplexity API.
+
 
 ## Table of Contents
 
